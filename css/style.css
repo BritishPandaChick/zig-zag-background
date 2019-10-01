@@ -1,0 +1,16 @@
+body {
+  background: #e6004c;
+}
+
+.zigzag {
+  background: #fff;
+  position: relative;
+  height: 200px;
+  z-index: 1;
+}
+
+.zigzag::after {
+  content: "";
+  display: block;
+  height: 30px;
+}
