@@ -13,4 +13,13 @@ body {
   content: "";
   display: block;
   height: 30px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(225deg, #fff 15px, transparent 0) 0 15px, -webkit-linear-gradient(315deg, #fff 15px, transparent 0) 0 15px;
+  background: -linear-gradient(-135deg, #fff 15px, transparent 0) 0 15px, linear-gradient(135deg, #fff 15px, transparent 0) 0 15px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 30px 30px;
 }
